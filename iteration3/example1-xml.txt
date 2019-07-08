@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='example1-xslt-orders.xslt'?>
+<customers>
+      <customer ID="1">
+            <city>Monterey</city>
+            <name>Herbson's Pices</name>
+            <orders>
+                  <order ID="ORD2">
+                  <num>1</num>
+                  <date>12-01-2002</date>
+                  <amount>23.54</amount>
+                        <items>
+                              <item>
+                                    <productID>ABC123</productID>
+                                    <quantity>1</quantity>
+                                    <description>Oregano</description>
+                                    <price>23.54</price>
+                                    <extended>23.54</extended>
+                              </item>
+                        </items>
+                  </order>
+                  <order ID="ORD3">
+                        <num>2</num>
+                        <date>01-06-2003</date>
+                        <amount>15.45</amount>
+                        <items>
+                              <item>
+                                    <productID>23_45d</productID>
+                                    <quantity>2</quantity>
+                                    <description>Rosemary</description>
+                                    <price>5.00</price>
+                                    <extended>10.00</extended>
+                              </item>
+                              <item>
+                                    <productID>t456</productID>
+                                    <quantity>5</quantity>
+                                    <description>Thyme</description>
+                                    <price>1.09</price>
+                                    <extended>5.45</extended>
+                              </item>
+                        </items>
+                  </order>
+            </orders>
+      </customer>
+      <customer ID="2">
+            <city>New York</city>
+            <name>A Pealing Desserts</name>
+                  <orders>
+                  <order ID="ORD4">
+                        <num>1</num>
+                        <date>11-15-2002</date>
+                        <amount>115.00</amount>
+                        <items>
+                              <item>
+                                    <productID>ABC123</productID>
+                                    <quantity>5</quantity>
+                                    <description>Lemon Zests</description>
+                                    <price>23.00</price>
+                                    <extended>115.00</extended>
+                              </item>
+                        </items>
+                  </order>
+            </orders>
+      </customer></customers>
+
+

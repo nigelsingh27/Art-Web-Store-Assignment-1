@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='museums.xslt'?>
+
+<!--
+- Database: 'Iteration3'
+-->
+<database>
+	<!-- Table Artists -->
+	<artists>
+		<artist>
+			<id>1</id>
+			<name>Claude Monet</name>
+			<date>November 14, 1840 - December 5, 1926</date>
+			<genre>Modern</genre>
+			<famous>Water Lilies, Poplars</famous>
+			<location>Giverny, France</location>
+			<general>Oscar-Claude Monet was a founder of French Impressionist painting and he moved the expressing of ones perceptions.</general>
+		</artist>
+		<artist>
+			<id>2</id>
+			<name>Leonardo Da Vinci</name>
+			<date>April 15, 1452 - May 2, 1519</date>
+			<genre>Rennaisance</genre>
+			<famous>Mona Lisa, The Last Supper</famous>
+			<location>Kingdom of France, Amboise</location>
+			<general>Leonardo da Vinci or simply Leonardo, was an Italian Renaissance polymath whose areas of interest included invention, painting, sculpting, and architecture</general>
+		</artist>
+		<artist>
+			<id>3</id>
+			<name>Michelangelo Simoni</name>
+			<date>March 6, 1475 - February 18, 1564</date>
+			<genre>Rennaisance</genre>
+			<famous>David, The Last Judgement</famous>
+			<location>Rome, Paal States</location>
+			<general>Michelangelo was an Italian sculptor, painter, architect and poet of the High Renaissance born in the Republic of Florence, who exerted an unparalleled influence on the development of Western art</general>
+		</artist>
+		<artist>
+			<id>4</id>
+			<name>Pablo Picasso</name>
+			<date>October 25, 1881 - April 8, 1973</date>
+			<genre>Modern</genre>
+			<famous>La Vie, Kahnweiler</famous>
+			<location>Mougins, France</location>
+			<general>Pablo Picasso was a Spanish painter, sculptor, printmaker, ceramicist, stage designer, poet and playwright who spent most of his adult life in France</general>
+		</artist>
+		<artist>
+			<id>5</id>
+			<name>Vincent Van Gogh</name>
+			<date>March 30, 1853 / July 29, 1890</date>
+			<genre>Rennaisance</genre>
+			<famous>The Starry Night, Sunflowers</famous>
+			<location>Auvers-sur-Oise, France</location>
+			<general>Vincent Willem van Gogh was a Dutch Post-Impressionist painter who is among the most famous and influential figures in the history of Western art</general>
+		</artist>
+		<artist>
+			<id>6</id>
+			<name>Nigel Singh</name>
+			<date>1997 Sept 27</date>
+			<genre>Modern</genre>
+			<famous>All Art</famous>
+			<location>Canada</location>
+			<general>Born in Canada</general>
+		</artist>
+	</artists>
+	
+	<!-- Table Artworks -->
+	<artworks>
+		<artwork>
+			<id>1</id>
+			<name>Girl With a Pearl Earring</name>
+			<date>1902</date>
+			<type>Oil Painting</type>
+			<dimensions>44.5cm x 39cm</dimensions>
+			<location>Mauritshuis: The Hague</location>
+			<artist>Johannes Vermeer</artist>
+			<price>687</price>
+			<genre>Baroque</genre>
+			<general>Girl with a Pearl Earring is an oil painting by Dutch Golden Age painter Johannes Vermeer</general>
+		</artwork>
+		<artwork>
+			<id>2</id>
+			<name>Mona Lisa</name>
+			<date>1503</date>
+			<type>Oil Painting</type>
+			<dimensions>77cm x 53cm</dimensions>
+			<location>Louvre Museam: Paris</location>
+			<artist>Leonardo Da Vinci</artist>
+			<price>782</price>
+			<genre>Renaissance</genre>
+			<general>The Mona Lisa is a half-length portrait painting by the Italian Renaissance artist Leonardo da Vinci</general>
+		</artwork>
+		<artwork>
+			<id>3</id>
+			<name>Starry Night</name>
+			<date>1889</date>
+			<type>Oil Painting</type>
+			<dimensions>73.7cm x 92.1cm</dimensions>
+			<location>Museam of Modern Art: New York City</location>
+			<artist>Vincent van Gogh</artist>
+			<price>500</price>
+			<genre>Post-Impressionism</genre>
+			<general>The Starry Night is an oil on canvas by the Dutch post-impressionist painter Vincent van Gogh</general>
+		</artwork>
+		<artwork>
+			<id>4</id>
+			<name>The Kiss</name>
+			<date>1907</date>
+			<type>Oil Painting</type>
+			<dimensions>180cm x 180cm</dimensions>
+			<location>Osterreichische Galerie Belvedere: Vienna</location>
+			<artist>Gustav Klmit</artist>
+			<price>152</price>
+			<genre>Surrealism</genre>
+			<general>The Kiss (Liebespaar) is an oil, gold, and silver-leaf painting by the Austrian Symbolist painter Gustav Klimt</general>
+		</artwork>
+		<artwork>
+			<id>5</id>
+			<name>The Last Supper</name>
+			<date>1490</date>
+			<type>Fresco-Secco</type>
+			<dimensions>460cm x 880cm</dimensions>
+			<location>Convent of Santa Maria Delle Grazie: Milan</location>
+			<artist>Leonardo da Vinci</artist>
+			<price>564</price>
+			<genre>Renaissance</genre>
+			<general>The Last Supper is a late 15th-century mural painting by Leonardo da Vinci</general>
+		</artwork>
+		<artwork>
+			<id>6</id>
+			<name>Trinidad and Tobago</name>
+			<date>2001</date>
+			<type>Painting</type>
+			<dimensions>25x25</dimensions>
+			<location>Trinidad</location>
+			<artist>Nigel Singh</artist>
+			<price>400</price>
+			<genre>Baroque</genre>
+			<general>Made in Trinidad</general>
+		</artwork>
+	</artworks>
+	
+	<!-- Table Genres -->
+	<genres>
+		<genre>
+			<id>1</id>
+			<type>Abstract</type>
+		</genre>
+		<genre>
+			<id>2</id>
+			<type>Baroque</type>
+		</genre>
+		<genre>
+			<id>3</id>
+			<type>Post-Impressionism</type>
+		</genre>
+		<genre>
+			<id>4</id>
+			<type>Renaissance</type>
+		</genre>
+		<genre>
+			<id>5</id>
+			<type>Surrealism</type>
+		</genre>
+	</genres>
+	
+	<!-- Table Images -->
+	<images>
+		<image>
+			<id>1</id>
+			<name>Trinidad and Tobago</name>
+			<path>images.jpg</path>
+		</image>
+		<image>
+			<id>2</id>
+			<name>Leonardo Da Vinci</name>
+			<path>pictures/davinci.jpg</path>
+		</image>
+		<image>
+			<id>3</id>
+			<name>Girl With A Pearl Earring</name>
+			<path>pictures/girlwithapearlearring.jpg</path>
+		</image>
+		<image>
+			<id>4</id>
+			<name>The Louvre Palace</name>
+			<path>pictures/louvre.jpg</path>
+		</image>
+		<image>
+			<id>5</id>
+			<name>Michelangelo Simoni</name>
+			<path>pictures/michelangelo.jpg</path>
+		</image>
+		<image>
+			<id>6</id>
+			<name>Mona Lisa</name>
+			<path>pictures/monalisa.jpg</path>
+		</image>
+		<image>
+			<id>7</id>
+			<name>Claude Monet</name>
+			<path>pictures/monet.jpg</path>
+		</image>
+		<image>
+			<id>8</id>
+			<name>A New Museum</name>
+			<path>pictures/museum.jpg</path>
+		</image>
+		<image>
+			<id>9</id>
+			<name>Pablo Picasso</name>
+			<path>pictures/picasso.jpg</path>
+		</image>
+		<image>
+			<id>10</id>
+			<name>Starry Night</name>
+			<path>pictures/starrynight.jpg</path>
+		</image>
+		<image>
+			<id>11</id>
+			<name>The British Museum</name>
+			<path>pictures/thebritishmuseum.jpg</path>
+		</image>
+		<image>
+			<id>12</id>
+			<name>The Kiss</name>
+			<path>pictures/thekiss.jpg</path>
+		</image>
+		<image>
+			<id>13</id>
+			<name>The Last Supper</name>
+			<path>pictures/thelastsupper.jpg</path>
+		</image>
+		<image>
+			<id>14</id>
+			<name>Vincent Van Gogh</name>
+			<path>pictures/vangogh.jpg</path>
+		</image>
+	</images>
+	
+	<!-- Table Museums -->
+	<museums>
+		<museum>
+			<id>1</id>
+			<name>The British Museum</name>
+			<date>Established in 1753</date>
+			<location>London</location>
+			<address>Great Russell Street London, WC1B United Kingdom</address>
+			<people>Architects involved: Robert Smirke, Sydney Smirke, John Russell Pope</people>
+			<history>The British Museum first opened to the public on 15 January 1759 argely based on the collections of the physician and scientist Sir Hans Sloane. </history>
+			<famous>Rosetta Stone, Study for Adam, Military Machines, An Elephant</famous>
+		</museum>
+		<museum>
+			<id>2</id>
+			<name>The Louvre Palace</name>
+			<date>started in 1202 - finished in 1989</date>
+			<location>Paris, France</location>
+			<address>Rue de Rivoli, 75001 Paris, France</address>
+			<people>Architects involved: Pierre Lescot, Louis Le Vau, Louis Visconti, and Hector Lefuel</people>
+			<history>The Louvre Palaceis a former royal palace. Originally a fortress built in the medieval period, it became a royal palace in the fourteenth century.</history>
+			<famous>Mona Lisa, Venus de Milo, Code of Hammurabi</famous>
+		</museum>
+		<museum>
+			<id>3</id>
+			<name>A New Mueseum</name>
+			<date>1995</date>
+			<location>Germany</location>
+			<address>40 Toronto Street</address>
+			<people>Nigel Singh</people>
+			<history>Unknown</history>
+			<famous>All Artworks</famous>
+		</museum>
+	</museums>
+	
+	<!-- Table Purchases -->
+	<purchases>
+		<purchase>
+			<id>1</id>
+			<name>Felix</name>
+			<address>4000 Toronto Street</address>
+			<credit>456456456456456</credit>
+			<artwork>Mona Lisa</artwork>
+			<quantity>3</quantity>
+			<shipping>350</shipping>
+		</purchase>
+		<purchase>
+			<id>2</id>
+			<name>Marko Bilic</name>
+			<address>40 Toronto Street</address>
+			<credit>500500500500</credit>
+			<artwork>Starry Night</artwork>
+			<quantity>1</quantity>
+			<shipping>350</shipping>
+		</purchase>
+		<purchase>
+			<id>3</id>
+			<name>Nigel</name>
+			<address>40 A Bell Drive</address>
+			<credit>416416416416</credit>
+			<artwork>Girl With a Pearl Earring</artwork>
+			<quantity>1</quantity>
+			<shipping>50</shipping>
+		</purchase>
+		<purchase>
+			<id>4</id>
+			<name>Nigeo</name>
+			<address>Grad Lane</address>
+			<credit>555555555555</credit>
+			<artwork>Mona Lisa</artwork>
+			<quantity>1</quantity>
+			<shipping>50</shipping>
+		</purchase>
+	</purchases>
+	
+	<!-- Table Reviews  -->
+	<reviews>
+		<review>
+			<content>Amazing site!</content>
+			<name>John</name>
+		</review>
+		<review>
+			<content>Christmas came early!</content>
+			<name>Santa</name>
+		</review>
+		<review>
+			<content>Good Job!</content>
+			<name>Felix</name>
+		</review>
+		<review>
+			<content>Great site with awesome features!</content>
+			<name>Billy</name>
+		</review>
+		<review>
+			<content>Mona Lisa artwork came in perfect condition :)</content>
+			<name>Phil</name>
+		</review>
+		<review>
+			<content>This is a great website!</content>
+			<name>Micheal</name>
+		</review>
+	</reviews>
+</database>
